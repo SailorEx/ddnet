@@ -31,7 +31,6 @@ if(OPUSFILE_FOUND)
   if(OPUSFILE_BUNDLED AND TARGET_OS STREQUAL "windows")
     set(OPUSFILE_COPY_FILES
       "${EXTRA_OPUSFILE_LIBDIR}/libogg.dll"
-      "${EXTRA_OPUSFILE_LIBDIR}/libopus.dll"
       "${EXTRA_OPUSFILE_LIBDIR}/libopusfile.dll"
       "${EXTRA_OPUSFILE_LIBDIR}/libwinpthread-1.dll"
     )
